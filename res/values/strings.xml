@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">MysteryOfAnimation</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-
+    <string name="mystery1">1.translateの謎</string>
+    <string name="mystery2">2.alphaの謎</string>
 </resources>

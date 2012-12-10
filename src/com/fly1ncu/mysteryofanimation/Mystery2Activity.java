@@ -8,23 +8,18 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
-public class Mystery1Activity extends Activity {
+public class Mystery2Activity extends Activity {
     private View mView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mystery1);
+        setContentView(R.layout.activity_mystery2);
         mView = findViewById(R.id.view);
     }
 
-    public void onLeftButtonClick(View v) {
-        Animation anim = AnimationUtils.loadAnimation(this, R.anim.translate_left);
-        mView.startAnimation(anim);
-    }
-
-    public void onRightButtonClick(View v) {
-        Animation anim = AnimationUtils.loadAnimation(this, R.anim.translate_right);
+    public void onFadeButtonClick(View v) {
+        Animation anim = AnimationUtils.loadAnimation(this, R.anim.alpha);
         mView.startAnimation(anim);
     }
 

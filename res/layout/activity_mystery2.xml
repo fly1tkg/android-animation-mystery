@@ -18,16 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:onClick="onLeftButtonClick"
-        android:text="Left" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/button1"
-        android:onClick="onRightButtonClick"
-        android:text="Right" />
+        android:onClick="onFadeButtonClick"
+        android:text="Fade" />
 
 </RelativeLayout>
